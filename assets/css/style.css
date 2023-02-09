@@ -93,6 +93,11 @@ header {
     color: #444343;
 }
 
+.failureReason p i {
+    color: green;
+    margin-right: 10px;
+}
+
 /* Plan section */
 
 .planContainer {
@@ -129,6 +134,58 @@ header {
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+
+/* Acheive Skills */
+
+/* Skills portfolio */
+
+.work {
+    width: 80%;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.workDesc {
+    text-align: center;
+}
+
+.workDesc h3 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+
+}
+
+.workDesc p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.skills {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill img {}
+
+.skill h3 {
+    margin: 30px 0px 20px 0px;
+    color: #181818;
+}
+
+.skill p {
+    color: #757575;
 }
 
 /* Keep positive section */
