@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 26px;
+}
+
+header {
+    background-image: url(../images/banner/banner3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerText {
+    width: 525px;
+    text-align: right;
+}
+
+.bannerText h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+.bannerText p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+
+.bannerText a button {
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.failureSection {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.failureImgBox {}
+
+.failureImgBox img {}
+
+.failureTextBox {
+    width: 416px;
+}
+
+.failureTextBox h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.failureTextBox>p {
+    color: #444343;
+    margin: 20px 0px;
+}
+
+.failureReason {}
+
+.failureReason p {
+    color: #444343;
+}
+
+/* Plan section */
+
+.planContainer {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.planContainer h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 130px 0 50px 0;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.plan {}
+
+.plan img {}
+
+.plan h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin: 16px 0;
+}
+
+.plan p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
